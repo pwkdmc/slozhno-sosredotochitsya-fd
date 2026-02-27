@@ -1,0 +1,1 @@
+﻿git@github.com:pwkdmc/slozhno-sosredotochitsya-fd.git
