@@ -8,3 +8,7 @@
   --subtitle-color: #000028;
   --text-color: #f1b2ce;
 }
+
+:root.theme-dark .header__decorative-text {
+  display: block;
+}
