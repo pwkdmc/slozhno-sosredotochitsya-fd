@@ -3,12 +3,30 @@
   --background-color: #fff1f7;
   --accent-color: #ff8dcb;
   --section-title-color: #353430;
-  --title-color: #ffc2e6;
-  --header-color: var(--section-header-color);
-  --text-color: #353430;
   --button-hover-color: rgb(53 52 48 / 0.4);
+  --title-color: #ffc2e6;
+  --subtitle-color: var(--section-title-color);
+  --text-color: #353430;
 }
 
 :root.theme-light .header__decorative-text {
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --section-title-color: #353430;
+    --button-hover-color: rgb(53 52 48 / 0.4);
+    --title-color: #ffc2e6;
+    --subtitle-color: var(--section-title-color);
+    --text-color: #353430;
+  }
+
+  .header__decorative-text {
+    display: none;
+  }
 }
